@@ -1,0 +1,18 @@
+@import '../../styles/variables';
+
+.username {
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 5px 15px;
+    color: $text-color;
+
+    &__sublogin {
+        &::before {
+            content: ':';
+            display: inline-block;
+            color: rgba(0, 0, 0, 0.2);
+            margin: 0 5px;
+        }
+    }
+}

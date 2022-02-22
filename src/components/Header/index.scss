@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    min-height: 50px;
+    padding: 5px 15px;
+    background-color: #F6F6F6;
+
+    &__main {
+        display: flex;
+        align-items: center ;
+    }
+
+    &__title {
+        margin-left: 20px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    &__controls {
+        display: flex;
+        align-items: center;
+    }
+
+    &__control {
+        margin-left: 30px;
+
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+}

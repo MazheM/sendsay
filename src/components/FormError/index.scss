@@ -1,0 +1,32 @@
+@import '../../styles/variables';
+
+.form-error {
+    background: rgba($error-color, 0.1);
+    padding: 10px 12px;
+    border-radius: 5px;
+    display: flex;
+
+    &__icon {
+        width: 20px;
+        flex-shrink: 0;
+        margin-right: 10px;
+        padding-top: 3px;
+    }
+
+    &__title {
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 400;
+        color: $error-color;
+        margin: 0;
+    }
+
+    &__subtitle {
+        font-size: 12px;
+        line-height: 20px;
+        color: rgba($error-color, .5);
+        margin: 0;
+    }
+
+
+}

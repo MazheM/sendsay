@@ -1,0 +1,33 @@
+.app-view {
+    background-color: #F7F7F7;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    &__request-wrapper {
+        padding: 10px 15px 15px;
+        flex-grow: 1;
+        background-color: #fff;
+    }
+
+    &__requests-container {
+        display: flex;
+        height: 100%;
+    }
+
+    &__request {
+        flex-shrink: 0;
+        min-width: 5%;
+        max-width: 95%;
+    }
+
+    &__response {
+        flex-grow: 1;
+    }
+
+    &__resizer {
+        display: flex;
+        justify-content: center;
+    }
+}
